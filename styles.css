@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: kaushan Script;
+}
+
+.header{
+    background-color:rgb(80, 48, 48);
+    text-align: center;
+    height: 80px;
+    color: #fff;
+}
+
+.header h1{
+    padding-top: 15px;
+    font-size: 2.5rem;
+}
+
+.section{
+    height: auto;
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.section .grootInput{
+    width: 100%;
+    height: 20vh;
+    font-family: kaushan script;
+    font-size: 1rem;
+    padding: 10px 15px 0 15px;
+    border-radius: 10px;
+    color: darkgrey;
+    border: 1px solid brown;
+}
+
+.midSection{
+    display: flex;
+}
+
+.grootImage{
+    height: 150px;
+    width: 150px;
+    border: 2px solid brown;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.grootButton{
+    width: 150px;
+    height: 30px;
+    margin: 70px 20px 0 0;
+    font-size: 1rem;
+    font-family:kaushan Script;
+    background-color: rgb(84, 53, 53);
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+.output-heading{
+    padding: 10px 0 10px 0;
+}
+
+.output-heading h3{
+    color: brown;
+    font-size: 2rem;
+}
+
+.outputDiv{
+    width: 100%;
+    height: 80px;
+    border: 1px solid brown;
+    padding: 10px 15px 0 15px;
+    border-radius: 10px;
+}
+
+/*----About-----*/
+.about{
+    color: #fff;
+    background-color: rgb(80, 48, 48);
+    text-align: center;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+}
+
+.about-section{
+    width: 50%;
+    margin: auto;
+}
+
+
+
+.output-heading{
+    color: #fff;
+    font-size: 2rem;
+}
